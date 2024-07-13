@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- favicon -->
+    <link rel="icon" href="./favicon (1).ico" />
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style cart.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="Header">
+      <a href=""><img src="background 3.jpg"
+      class="logo"/></a>
+      <nav>
+        <ul id="navbar">
+          <li><a class="active" href="index.html"> Home </a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="lg-bag"> <a href="cart.html">
+            <i class="fa-solid fa-bag-shopping 
+            head-cart"></i
+            ></a></li>
+            <a href="#" id="Close"><i class="fa-solid fa-xmark"></i>
+            </a>
+        </ul>
+      </nav>
+
+      <div id="mobile">
+        <a href="cart.html">
+          <i class="fa-solid fa-bag-shopping 
+            head-cart"></i>
+        </a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <div class="container">
+        <header>
+          <div class="title">PRODUCT LIST</div>
+          <div class="icon-cart">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
+            </svg>  
+            <span>0</span>
+          </div>
+        </header>
+        <div class="listproduct">
+          <div class="item">
+            <img src="screen 2.jpeg" alt="" srcset="">
+            <h2>Screen</h2>
+            <div class="price">$200</div>
+            <button class="addcart">
+              Add to cart
+            </button>
+          </div>
+        </div>
+    </div>
+    
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart">
+        <div class="item">
+          <div class="img">
+            <img src="screen 2.jpeg" alt="">
+          </div>
+          <div class="name" style="margin-top: 70%;">
+            NAME
+          </div>
+          <div class="totalprice" style="margin-top: 210%;">
+            $200
+          </div>
+          <div class="quantity">
+            <span class="minus"><</span>
+            <span style="color: #eee;">1</span>
+            <span class="plus">></span>
+          </div>
+        </div>
+        </div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">CHECK OUT</button>
+      </div>
+    </div>
+
+
+
+    <script src="shop.js"></script>
+    </body>
+    </html>
